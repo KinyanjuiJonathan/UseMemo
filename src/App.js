@@ -1,9 +1,6 @@
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      import { useState } from "react";
+import { useState } from "react";
 import ReactDOM from "react-dom";
 
 const App = () => {
@@ -47,9 +44,5 @@ const expensiveCalculation = (num) => {
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
-
-    </div>
-  );
-}
 
 export default App;
