@@ -16,8 +16,9 @@ const App = () => {
   };
 
   return (
-    <div>
-      <div>
+  <div className='App'>
+    <div className='container'>
+      <div className='mytodos'>
         <h2>My Todos</h2>
         {todos.map((todo, index) => {
           return <p key={index}>{todo}</p>;
@@ -25,13 +26,14 @@ const App = () => {
         <button onClick={addTodo}>Add Todo</button>
       </div>
       <hr />
-      <div>
+      <div className='count'>
         Count: {count}
         <button onClick={increment}>+</button>
         <h2>Expensive Calculation</h2>
         {calculation}
       </div>
     </div>
+  </div>
   );
 };
 
