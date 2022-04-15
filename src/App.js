@@ -19,7 +19,7 @@ const App = () => {
   <div className='App'>
     <div className='container'>
       <div className='mytodos'>
-        <h2>My Todos</h2>
+        {/* <h2>My Todos</h2> */}
         {todos.map((todo, index) => {
           return <p key={index}>{todo}</p>;
         })}
