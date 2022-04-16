@@ -1,3 +1,17 @@
-/* .App{
-  background-color: ;
-} */
+.App{
+  background-image: linear-gradient(to left,orange,green, indigo);
+  aspect-ratio: 1/1;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 80vw;
+  height: 80vh;
+  background-image: radial-gradient( rgb(189, 87, 104), red);
+}
+.mytodos{
+  width: 80vw;
+  height: ;
+}
