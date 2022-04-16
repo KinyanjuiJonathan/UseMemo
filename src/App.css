@@ -1,6 +1,7 @@
 .App{
-  background-image: linear-gradient(to left,orange,green, indigo);
-  aspect-ratio: 1/1;
+  /* background-image: repeating-radial-gradient(red 20px,yellow 40px, blue 60px,violet 80px); */
+  aspect-ratio: 2/1;
+  background-color: black;
   flex-grow: 1;
   display: flex;
   align-items: center;
@@ -9,7 +10,8 @@
 .container{
   width: 80vw;
   height: 80vh;
-  background-image: radial-gradient( rgb(189, 87, 104), red);
+  background-image: linear-gradient(to left,rgb(99, 8, 97),rgb(231, 24, 24));
+  
 }
 .mytodos{
   width: 80vw;
