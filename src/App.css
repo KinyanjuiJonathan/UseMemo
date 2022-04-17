@@ -8,8 +8,8 @@
   justify-content: center;
 }
 .container{
-  /* width: 80vw;
-  height: 80vh; */ad
+  width: 80vw;
+  height: 80vh;
   background-image: linear-gradient(to left,rgb(99, 8, 97),rgb(231, 24, 24));
   
 }
